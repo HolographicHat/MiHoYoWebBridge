@@ -1,9 +1,6 @@
-﻿MiHoYoWebBridge
-===
+# MiHoYoWebBridge
 
 ![Nuget](https://img.shields.io/nuget/v/MiHoYoWebBridge?style=flat-square)
-
----   
 
 Getting started
 ---
@@ -31,7 +28,7 @@ Getting started
 
 _Now you can restart your application and check out the effect by `window.MiHoYoJSInterface.closePage()`_   
 
-For more information and a full example about [YS daily sign in](https://webstatic.mihoyo.com/bbs/event/signin-ys/index.html?act_id=e202009291139501): [MiHoYoWebBridge/Demo](https://github.com/HolographicHat/MiHoYoWebBridge/tree/main/Demo)
+For more information and a full example about [米游社原神每日签到](https://webstatic.mihoyo.com/bbs/event/signin-ys/index.html?act_id=e202009291139501): [MiHoYoWebBridge/Demo](https://github.com/HolographicHat/MiHoYoWebBridge/tree/main/Demo)
 
 Questions, bug reports or feature requests?
 ---
