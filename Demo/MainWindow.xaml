@@ -1,0 +1,18 @@
+﻿<Window x:Class="Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow - 0,0" SizeChanged="Window_SizeChanged" Background="#F0F0F0" Width="860" Height="930">
+    <DockPanel>
+        <StackPanel x:Name="TopPanel" DockPanel.Dock="Top" Orientation="Horizontal" Background="#F0F0F0">
+            <Button x:Name="BtnInitWebview" Content="init webview" Margin="10" Padding="15,5,15,5" Click="BtnInitWebview_Click" IsDefault="True"/>
+            <Button x:Name="BtnShowDev" Content="dev tools" Margin="0, 10, 10, 10" Padding="15,5,15,5" Click="BtnShowDev_Click"/>
+            <Button x:Name="BtnOrientation" Content="switch orientation" Margin="0, 10, 10, 10" Padding="15,5,15,5" Click="BtnOrientation_OnClick"/>
+            <Button x:Name="BtnDemoPage" Content="bbs signin" Margin="0, 10, 10, 10" Padding="15,5,15,5" Click="BtnDemoPage_OnClick"></Button>
+        </StackPanel>
+        <wv2:WebView2 x:Name="CWebView" Width="844" Height="390"/>
+    </DockPanel>
+</Window>

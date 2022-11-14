@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiHoYoWebBridge", "MiHoYoWebBridge\MiHoYoWebBridge.csproj", "{70991EB9-1037-4F96-97F8-6ECE9CE1166E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{C99DDAAD-7C01-4726-BAC8-E573C981A64D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70991EB9-1037-4F96-97F8-6ECE9CE1166E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70991EB9-1037-4F96-97F8-6ECE9CE1166E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70991EB9-1037-4F96-97F8-6ECE9CE1166E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70991EB9-1037-4F96-97F8-6ECE9CE1166E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99DDAAD-7C01-4726-BAC8-E573C981A64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99DDAAD-7C01-4726-BAC8-E573C981A64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99DDAAD-7C01-4726-BAC8-E573C981A64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99DDAAD-7C01-4726-BAC8-E573C981A64D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
