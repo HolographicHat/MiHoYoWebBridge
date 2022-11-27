@@ -36,7 +36,7 @@ public partial class MainWindow {
             MessageBox.Show(this, "请前往米游社进行实名认证后重试", "提示", MessageBoxButton.OK, MessageBoxImage.Information);
         }).Register<EvtGetDynamicSecretV1>(s => s.Callback(result => {
             var t = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-            var h = $"salt=fdv0fY9My9eA7MR0NpjGP9RjueFvjUSQ&t={t}&r=048pm3".Hash();
+            var h = $"salt=jEpJb9rRARU2rXDA9qYbZ3selxkuct9a&t={t}&r=048pm3".Hash();
             result.Data["DS"] = $"{t},048pm3,{h}";
         })).Register<EvtGetDynamicSecretV2>(_ => {
         }).Register<EvtGetStatusBarHeight>(s => s.Callback(result => {
